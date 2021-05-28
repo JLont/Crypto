@@ -2,8 +2,8 @@
 
 from Crypto.Util.number import inverse
 
-pt = input("Enter plaintext: ") 
-e = input("Enter e: ")
-n = input("Enter n: ")
+pt = int(input("Enter plaintext: ")) 
+e = int(input("Enter e: "))
+n = int(input("Enter n: "))
 ct = pow(pt, e, n)
 print(ct)
